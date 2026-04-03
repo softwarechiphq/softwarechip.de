@@ -17,7 +17,7 @@
 		<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 		<a href="/" class="group flex items-center gap-4">
 			<img
-				src="src\lib\assets\SoftwareChip.png"
+				src="https://cdn.hackclub.com/019d553a-5470-71f0-b9a8-39fc8831d106/SoftwareChip.png"
 				alt="SoftwareChip Logo"
 				class="pixelated h-10 w-10"
 				style="image-rendering: pixelated;"
