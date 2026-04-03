@@ -1,0 +1,19 @@
+# .nixpacks.toml
+[phases.setup]
+# Use Node.js 22 and a compatible npm version
+packages = ["nodejs_22" "npm-9_x"]
+
+[phases.build]
+# Install dependencies and build the SvelteKit app
+commands = [
+  "npm install",
+  "npm run build"
+]
+
+[phases.start]
+# Start command for SvelteKit with Node adapter
+command = "node build"
+
+[options]
+# Root directory of the app
+app-root = "."
