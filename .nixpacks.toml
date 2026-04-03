@@ -10,9 +10,9 @@ commands = [
   "npm run build"
 ]
 
-[phases.start]
+[start]
 # Start command for SvelteKit with Node adapter
-command = "node build"
+cmd = "node build"
 
 [options]
 # Root directory of the app
